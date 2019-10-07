@@ -291,16 +291,16 @@ h2 {
       }
 
       .nav-bar a {
-            border: 1px solid green;
-        /* display: flex-row; */
+            /* border: 1px solid green; */
+        display: inline;
         margin: 35px;
         text-decoration: none;
         color: gray;
         font-size: 0.9em;
         padding: 5px;
-        /* text-align: center; */
-        /* align-items: flex-start; */
-        /* justify-content: center; */
+        text-align: center;
+        align-items: flex-start;
+        justify-content: space-between;
       }
       .content_2_box {
         width: 10%;
@@ -324,4 +324,16 @@ h2 {
         width: 800px;
         display: flex;
       }
+  }
+
+  @media (max-width: 500px) {
+    .nav-bar {
+      height: 270px;
+      display: inline-block;
+      flex-direction: column-reverse;
+      flex-wrap: wrap-reverse;
+      align-items: center;
+      padding: 300px;
+    }
+
   }
