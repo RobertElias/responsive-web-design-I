@@ -327,6 +327,13 @@ h2 {
   }
 
   @media (max-width: 500px) {
+
+    .container{
+      align-items: center;
+      display: flex;
+      margin-top: -100px;
+      margin-left: 108px;
+    }
     
     .nav-bar a {
       height: 50px;
@@ -343,4 +350,15 @@ h2 {
       align-items: flex-start;
       justify-content: center;
     }
+
+    .box1 {
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      margin: 55px;
+      width: 500px;
+      height: 200px;;
+    }
+
+    
   }
