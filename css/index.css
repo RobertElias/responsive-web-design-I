@@ -329,10 +329,12 @@ h2 {
   @media (max-width: 500px) {
 
     .container{
+      /* border: 1px solid red; */
       align-items: center;
       display: flex;
       margin-top: -100px;
       margin-left: 108px;
+      
     }
     
     .nav-bar a {
@@ -352,13 +354,44 @@ h2 {
     }
 
     .box1 {
+      border: 1px solid red;
       display: flex;
       text-align: center;
+      align-items: center;
       flex-direction: column;
       margin: 55px;
       width: 500px;
-      height: 200px;;
+      height: 260px;;
     }
 
     
+    .content_3 {
+      /* border: 1px solid red; */
+      border-top: 2px solid black;
+      margin-top: -50px;
+      margin-left: 150px;
+      width: 500px;
+      height: 280px;
+      flex-direction: column;
+      display: flex;
+    }
+
+    .content_3_box {
+      /* border: 3px solid green; */
+      width: 500px;
+      font-size: 1em;
+      line-height: 1.5em;
+    }
+    .image-div {
+    
+      width: 500px;
+      height: 200px;
+      margin-top: 0px;
+      margin-left: 155px;
+    }
+    .image {
+      width: 500px;
+      height: 200px;
+      background-image: url("https://github.com/LambdaSchool/User-Interface/blob/master/great-idea-website/img/mid-page-accent.jpg?raw=true");
+    }
   }
