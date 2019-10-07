@@ -161,24 +161,24 @@ h2 {
   
   .nav-bar {
 	/* background-color:rgb(211,211,211, .5); */
-	width: 100%;
+	  width: 100%;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-evenly;
     align-content: flex-start;
     align-items: center;
   }
 
   .nav-bar a {
-  /*   border: .5px solid green; */
-    display: flex-row;
+  
+    display: inline;
     margin: 20px;
     text-decoration: none;
     color: gray;
     font-size: 0.9em;
     padding: 10px;
-    width: 50px;
-    height: 25px;
+    /* width: 50px;
+    height: 25px; */
     align-items: flex-start;
 }
   .container header nav a {
@@ -194,7 +194,7 @@ h2 {
  
   
   .content_1 {
-	border-top: 1px solid black;
+	border-top: 2px solid black;
 	margin: 1%;
 	width: 100%;
   }
@@ -209,7 +209,7 @@ h2 {
   
   .content_3 {
    
-	border-top: 1px solid black;
+	border-top: 2px solid black;
 	margin: 0%;
 	width: 100%;
 	
@@ -228,14 +228,13 @@ h2 {
 	margin: 1%;
 	width: 100%;
   }
-  
-  .image-div {
-	background: url('https://github.com/LambdaSchool/User-Interface/blob/master/great-idea-website/img/mid-page-accent.jpg?raw=true" alt="Image of code snippets across the screen');
-	background-repeat: no-repeat;
-	margin: 0px 0px 0px 200px;
-	margin: 1%;
-	width: 100%;
+  .image {
+    width: 880px;
+    height: 200px;
+    background-image: url("https://github.com/LambdaSchool/User-Interface/blob/master/great-idea-website/img/mid-page-accent.jpg?raw=true");
   }
+  
+
   
   address {
 	line-height: 1;
@@ -279,7 +278,7 @@ h2 {
         width: 800px;
     }
     .nav-bar {
-        /* background-color:rgb(211,211,211, .5); */
+        
         margin: 1%;
         padding: 1%;
         width: 800px;
@@ -291,7 +290,7 @@ h2 {
       }
 
       .nav-bar a {
-            /* border: 1px solid green; */
+        
         display: inline;
         margin: 35px;
         text-decoration: none;
@@ -303,11 +302,8 @@ h2 {
         justify-content: space-between;
       }
       .content_2_box {
-        width: 800px;
-        padding: 15px;
-        align-items: center;
-        justify-content: center;
-        display: flex;
+        width: 10%;
+        
       }
 
       .box1{
@@ -325,15 +321,35 @@ h2 {
         display: none;
       }
       .content_3 {
-        width: 800px;
+        width: 100%;
         display: flex;
       }
+
+      .image {
+        width: 100%;
+        height: 200px;
+        background-image: url("https://github.com/LambdaSchool/User-Interface/blob/master/great-idea-website/img/mid-page-accent.jpg?raw=true");
+      }
+      
+      .content_1 {
+        
+        margin: 1%;
+        width: 100%;
+        }
+        .content_1_box {
+          display: inline-block;
+          margin: 1%;
+          width: 30%;
+          height: 160px;
+          min-width: 150px;
+          }
+     
   }
 
   @media (max-width: 500px) {
 
     .container{
-      /* border: 1px solid red; */
+     
       align-items: center;
       display: flex;
       margin-top: -100px;
@@ -364,12 +380,12 @@ h2 {
       justify-content: center;
       display: flex;
       width: 500px;
-      border-bottom: 1px solid  black;
+     
       
     }
 
     .box1 {
-      /* border: 1px solid red; */
+     
       display: flex;
       text-align: center;
       align-items: center;
@@ -381,8 +397,6 @@ h2 {
 
     
     .content_3 {
-      /* border: 1px solid red; */
-      border-top: 2px solid black;
       margin-top: -50px;
       margin-left: 150px;
       width: 500px;
@@ -392,7 +406,7 @@ h2 {
     }
 
     .content_3_box {
-      /* border: 3px solid green; */
+     
       width: 500px;
       font-size: 1em;
       line-height: 1.5em;
@@ -411,6 +425,8 @@ h2 {
     }
 
     .content_1 {
+      
+      border-top: none;
       margin-top: 1px;
       margin-left: 150px;
       width: 500px;
@@ -420,14 +436,14 @@ h2 {
     }
 
     .content_1_box {
-      /* border: 3px solid green; */
+      
       width: 500px;
       font-size: 1em;
       line-height: 1.5em;
     }
 
     .contact-section {
-      /* border: 1px solid red; */
+      
       border-top: 2px solid black;
       margin-top: 120px;
       margin-left: 155px;
