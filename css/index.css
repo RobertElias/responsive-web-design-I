@@ -159,9 +159,11 @@ h2 {
 	margin: 10px 35px 10px 20px;
   }
   
-  .nav {
-	background-color:rgb(211,211,211, .5);
-	position: fixed;
+  .nav-bar {
+	/* background-color:rgb(211,211,211, .5); */
+	align-items: flex-end;
+    display: flex;    
+    justify-content: space-evenly;
   }
   
   .container header nav a {
@@ -174,12 +176,7 @@ h2 {
 	
 	
   }
-  .nav li {
-	display: inline-block;
-	font-size: 22px;
-	padding: 10px;
-	justify-content: space-between;
-  }
+ 
   
   .content_1 {
 	border-top: 1px solid black;
@@ -263,6 +260,19 @@ h2 {
   }
 
   @media (max-width: 800px) {
-      
+    .container {
+        width: 800px;
+    }
+    .nav-bar {
+        /* background-color:rgb(211,211,211, .5); */
+        margin: 1%;
+        padding: 1%;
+        width: 800px;
+        align-items: flex-end;
+        display: flex;    
+        justify-content: space-evenly;
+        align-content: flex-start;
+        flex-direction: column-reverse;
+      }
 
   }
