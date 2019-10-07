@@ -394,4 +394,15 @@ h2 {
       height: 200px;
       background-image: url("https://github.com/LambdaSchool/User-Interface/blob/master/great-idea-website/img/mid-page-accent.jpg?raw=true");
     }
+
+    .content_1 {
+      margin-top: 1px;
+      margin-left: 150px;
+      width: 500px;
+      height: 280px;
+      flex-direction: column;
+      display: flex;
+    }
+
+    
   }
